@@ -801,7 +801,7 @@ public function setschedule(Request $request)
     */
 
     return view(
-        'chair.setSchedule',
+        'chair.setschedule',
         compact(
             'department',
             'buildings',
